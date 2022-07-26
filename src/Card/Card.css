@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+.center {
+    margin: auto;
+    width: 100%;
+    /* border: 3px solid green; */
+    padding: 10px;
+  }
+  .viewer{
+    border: 1px green;
+  }
+  .font{
+    font-family: 'Lora', serif;
+    font-size: medium;
+  }
+  .font-header{
+    font-family: 'Lora', serif;
+    font-size : large;
+    font-weight: bold;
+  }
