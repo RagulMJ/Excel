@@ -144,12 +144,12 @@ function Card() {
                                 <div className='center'>
                                     <div >
                                         <p style={{ color: 'rgb(255, 99, 132)', textDecoration:'underline' }} className='text-center font'> QATARENERGY STD DIPPING  </p>
-                                        <p style={{ color: 'rgb(255, 99, 132)' }} className='text-center'>{excelData[0]}</p>
+                                        <p style={{ color: 'rgb(255, 99, 132)' }} className='text-center'>{Math.round(excelData[0])}</p>
                                     </div>
                                         <br/>
                                     <div>
                                         <p className='text-center font' style={{ color: 'rgb(54, 162, 235)', textDecoration:'underline' }}> CORIOLIS </p>
-                                        <p style={{ color: 'rgb(54, 162, 235)' }} className='text-center'>{excelData[1]}</p>
+                                        <p style={{ color: 'rgb(54, 162, 235)' }} className='text-center'>{Math.round(excelData[1])}</p>
                                         <br/>
                                     </div>
                                 </div>
